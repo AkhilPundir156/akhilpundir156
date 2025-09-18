@@ -1,16 +1,35 @@
-## Hi there 👋
+# 👋 Hi, I'm Akhil Pundir  
 
-<!--
-**AkhilPundir156/akhilpundir156** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 **Software Engineer | Web3 Enthusiast**  
+📍 From **Delhi, India**  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 About Me  
+I'm a passionate **Software Engineer** with hands-on experience in building **scalable web applications** and contributing to **AI projects**. I love solving complex problems, optimizing systems, and delivering impactful solutions that scale.  
+
+- ⚡ Skilled in **JavaScript, TypeSciprt, Python, C++, SQl, NoSQL**  
+- 🛠️ Experienced with **Odoo**, working on **VoIP services** and in **Development Services**  
+- 🤖 Contributed at **Scale AI** to improve **LLM training pipelines** with a focus on **data quality & accuracy**  
+- 🌐 Built **scalable apps** at **Manal Softech** as an **SDE Intern**  
+
+---
+
+## 🧩 Skills  
+- **Language:** JavaScript, TypeScript, Python, C++, XML  
+- **Backend:** Python, NodeJs.
+- **Frameworks** ExpressJs, ReactJs, NextJs, OWLJs.
+- **DB & Devops** MongoDB, PostgreSQL, Redis, Docker.
+---
+
+## 🏆 Experience Highlights  
+- **Odoo** – Worked on **VoIP services** and collaborated with **R&D and Development Services teams** to optimize **MRP/MPS reporting by ~70%**, improving efficiency & scalability.  
+- **Scale AI** – Enhanced **LLM training datasets** for better model fine-tuning, ensuring higher accuracy in advanced AI models.  
+- **Manal Softech** – Built **scalable web applications** using **React.js & JavaScript**, delivering modern and performant solutions.  
+
+---
+
+## 🌐 Connect With Me  
+- 💼 [LinkedIn](https://www.linkedin.com/in/akhil-pundir/)  
+- 📧 Email: **akhilpundir156@gmail.com**  
+- 🌍 Portfolio: [your-portfolio-link.com](https://your-portfolio-link.com)  
