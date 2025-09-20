@@ -15,8 +15,8 @@ export const ExperienceCard = ({
 }: CardProps) => {
     return (
         <a href={ tagLink } target="_blank">
-            <div className={`group w-full border border-tertiary-border h-[80px] rounded-[12px] bg-tertiary-bg shadow-[0px_0px_0px_0px_rgba(77,77,77,0)] hover:shadow-[0px_0px_0px_4px_rgba(77,77,77,0.6)] transition-shadow duration-300 flex items-center gap-[16px] leading-[170%] tracking-[.32px] cursor-pointer `}>
-                <div className="h-[40px] flex items-center gap-[16px] leading-[170%] tracking-[.32px] w-full ml-2">
+            <div className={`group h-auto pr-2 py-6 w-full border border-tertiary-border sm:h-[80px] sm:p-0 rounded-[12px] bg-tertiary-bg shadow-[0px_0px_0px_0px_rgba(77,77,77,0)] hover:shadow-[0px_0px_0px_4px_rgba(77,77,77,0.6)] transition-shadow duration-300 flex items-center gap-[16px] leading-[170%] tracking-[.32px] cursor-pointer `}>
+                <div className="h-[40px] flex items-center sm:gap-[16px] leading-[170%] tracking-[.32px] w-full ml-2">
                     <div className="w-[64px] h-[64px] flex items-center justify-center ">
                         <div className="h-[41px] w-[41px] border-[5px] border-tertiary-border rounded-[50%] flex items-center justify-center">
                             <img

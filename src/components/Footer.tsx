@@ -17,7 +17,7 @@ export const Footer = ({ isContactPage }: { isContactPage?: boolean }) => {
                 <div className="px-[24px]  tracking-[-.2px]">
                     <div className="text-center">
                         <div className="flex flex-col gap-[24px] leading-[120%]">
-                            <div className="text-[36px] font-[500] text-main-color">
+                            <div className=" text-[30px] sm:text-[36px] font-[500] text-main-color">
                                 Let’s work together.
                             </div>
                             <div className="text-[18px] w-auto font-[400] text-tertiary-text">

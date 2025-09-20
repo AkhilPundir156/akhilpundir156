@@ -19,6 +19,7 @@ const Navbar = ({
 }) => {
     const [theme, setTheme] = useState("dark");
     const navigation = useNavigate();
+
     useEffect(() => {
         if (theme === "dark") {
             document.getElementById("root")?.classList.add("light");
@@ -28,15 +29,21 @@ const Navbar = ({
     }, [theme]);
 
     return (
-        <div className="bg-primary-bg w-[560px] h-[64px] fixed top-[16px] left-[calc(50%-280px)] p-[16px] py-0 flex justify-between border border-primary-border rounded-[12px] z-[1]">
-            <div className="flex items-center gap-[16px] text-tertiary-text">
+        <div
+            className="bg-primary-bg fixed top-4 left-1/2 -translate-x-1/2 
+                        w-[95%] max-w-[560px] h-[64px] 
+                        px-4 flex justify-between items-center
+                        border border-primary-border rounded-[12px] z-[1]"
+        >
+            {/* Left icons */}
+            <div className="flex items-center gap-4 text-tertiary-text">
                 <Link to={"/"}>
                     <div
-                        className={`cursor-pointer w-[40px] h-[40px] flex items-center justify-center ${
+                        className={`cursor-pointer w-10 h-10 flex items-center justify-center ${
                             navBarIcon == "home"
                                 ? "text-main-color font-[600]"
                                 : ""
-                        } hover:bg-tertiary-border rounded-[50%] transition-all duration-300`}
+                        } hover:bg-tertiary-border rounded-full transition-all duration-300`}
                         onClick={() => setNavBarIcon("home")}
                     >
                         <HomeIcon
@@ -46,11 +53,11 @@ const Navbar = ({
                 </Link>
                 <Link to={"/about"}>
                     <div
-                        className={`cursor-pointer w-[40px] h-[40px] flex items-center justify-center ${
+                        className={`cursor-pointer w-10 h-10 flex items-center justify-center ${
                             navBarIcon == "user"
                                 ? "text-main-color font-[600]"
                                 : ""
-                        } hover:bg-tertiary-border rounded-[50%]  transition-all duration-300`}
+                        } hover:bg-tertiary-border rounded-full transition-all duration-300`}
                         onClick={() => setNavBarIcon("user")}
                     >
                         <UserICon
@@ -60,11 +67,11 @@ const Navbar = ({
                 </Link>
                 <Link to={"/projects"}>
                     <div
-                        className={`cursor-pointer w-[40px] h-[40px] flex items-center justify-center ${
+                        className={`cursor-pointer w-10 h-10 flex items-center justify-center ${
                             navBarIcon == "project"
                                 ? "text-main-color font-[600]"
                                 : ""
-                        } hover:bg-tertiary-border rounded-[50%]  transition-all duration-300`}
+                        } hover:bg-tertiary-border rounded-full transition-all duration-300`}
                         onClick={() => setNavBarIcon("project")}
                     >
                         <ProjectIcon
@@ -74,11 +81,11 @@ const Navbar = ({
                 </Link>
                 <Link to={"/work"}>
                     <div
-                        className={`cursor-pointer w-[40px] h-[40px] flex items-center justify-center ${
+                        className={`cursor-pointer w-10 h-10 flex items-center justify-center ${
                             navBarIcon == "work"
                                 ? "text-main-color font-[600]"
                                 : ""
-                        } hover:bg-tertiary-border rounded-[50%]  transition-all duration-300`}
+                        } hover:bg-tertiary-border rounded-full transition-all duration-300`}
                         onClick={() => setNavBarIcon("work")}
                     >
                         <WorkEx
@@ -87,9 +94,11 @@ const Navbar = ({
                     </div>
                 </Link>
             </div>
-            <div className="flex items-center gap-[16px]">
+
+            {/* Right icons */}
+            <div className="flex items-center gap-4">
                 <div
-                    className="cursor-pointer w-[40px] h-[40px] flex items-center text-tertiary-text justify-center hover:bg-tertiary-border rounded-[50%]  transition-all duration-300"
+                    className="cursor-pointer w-10 h-10 flex items-center text-tertiary-text justify-center hover:bg-tertiary-border rounded-full transition-all duration-300"
                     onClick={() => {
                         setTheme((theme) =>
                             theme === "light" ? "dark" : "light"

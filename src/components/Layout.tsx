@@ -9,7 +9,7 @@ const Layout = () => {
     return (
         <div className="bg-first-bg selection:bg-primary-dot text-secondary-text h-[100vh] w-[100vw] overflow-y-scroll pb-[24px]">
             <Navbar navBarIcon={navBarIcon} setNavBarIcon={setNavBarIcon} />
-            <div className="ml-[calc(50%-272px)] mt-[100px] w-[560px]">
+            <div className="mx-auto mt-[100px] max-w-[560px] w-[95%]">
                 <Outlet />
             </div>
         </div>
