@@ -40,7 +40,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-[490px] h-[490px] bg-tertiary-border rounded-[12px] border border-primary-dot p-[16px]">
+                    <div className="sm:w-[490px] sm:h-[490px] bg-tertiary-border rounded-[12px] border border-primary-dot p-[16px]">
                         <div className="rounded-[12px]">
                             <img
                                 className="rounded-[12px]"

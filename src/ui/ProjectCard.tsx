@@ -16,7 +16,7 @@ export const ProjectCard = ({
 }: CardProps) => {
     return (
         <Link to={tagLink}>
-            <div className="group w-full border border-tertiary-border h-[96px]  rounded-[12px] bg-tertiary-bg shadow-[0px_0px_0px_0px_rgba(77,77,77,0)] hover:shadow-[0px_0px_0px_4px_rgba(77,77,77,0.6)] transition-shadow duration-300 flex items-center gap-[16px] leading-[170%] tracking-[.32px] cursor-pointer">
+            <div className="group w-full h-auto py-2 pr-2 sm:p-0 border border-tertiary-border sm:h-[96px] rounded-[12px] bg-tertiary-bg shadow-[0px_0px_0px_0px_rgba(77,77,77,0)] hover:shadow-[0px_0px_0px_4px_rgba(77,77,77,0.6)] transition-shadow duration-300 flex items-center gap-[16px] leading-[170%] tracking-[.32px] cursor-pointer">
                 <div className="flex items-center gap-[16px] leading-[170%] tracking-[.32px] w-full ml-2">
                     <div className="w-[64px] h-[64px] flex items-center justify-center ">
                         <div className="h-[56px] w-[56px] border-[5px] border-tertiary-border rounded-[50%]">
