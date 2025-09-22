@@ -34,7 +34,8 @@ const Home = () => {
                                 I'm Akhil
                             </div>
                             <div className="text-[18px] max-w-[290px] font-[400] text-tertiary-text">
-                                Engineer from Delhi, India. Currently Engineering at Odoo In.
+                                Engineer from Delhi, India. Currently
+                                Engineering at Odoo In.
                             </div>
                         </div>
                         <div className="flex flex-col w-[140px] sm:flex-row sm:w-auto gap-[12px] items-center justify-start">
@@ -55,6 +56,11 @@ const Home = () => {
                                 changeButton={true}
                                 changeText="Copied"
                                 changeTime={1500}
+                                onClickHandler={() =>
+                                    window.navigator.clipboard.writeText(
+                                        "akhilpundir156@gmail.com"
+                                    )
+                                }
                             />
                         </div>
                     </div>
