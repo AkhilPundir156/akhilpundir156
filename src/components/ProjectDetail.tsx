@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
 import projectData from "../data/projectData";
@@ -16,6 +17,11 @@ const ProjectDetail = () => {
     const acitveProject = projectData.filter(
         (x) => x.id === parseInt(projectId)
     )[0];
+
+    useEffect(()=>{
+        const container = document.getElementById("scroll-container");
+        container?.scrollTo({ top: 0, behavior: "smooth" });
+    },[projectId]);
 
     const navigation = useNavigate();
     return (

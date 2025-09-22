@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import WorkEx from "../data/workExData";
 
 import { Footer } from "./Footer";
@@ -5,6 +7,11 @@ import { ExperienceCard } from "../ui/ExperienceCard";
 import { MotionWrapper } from "../ui/MotionWrapper";
 
 const WorkExperience = () => {
+    useEffect(() => {
+        const container = document.getElementById("scroll-container");
+        container?.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+
     return (
         <MotionWrapper>
             <div className="flex gap-[40px] flex-col">

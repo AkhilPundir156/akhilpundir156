@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import projectData from "../data/projectData";
 
 import { Footer } from "./Footer";
@@ -5,6 +7,12 @@ import { MotionWrapper } from "../ui/MotionWrapper";
 import { ProjectCard } from "../ui/ProjectCard";
 
 const Projects = () => {
+
+    useEffect(() => {
+        const container = document.getElementById("scroll-container");
+        container?.scrollTo({ top: 0, behavior: "smooth" });
+    }, []);
+
     return (
         <MotionWrapper>
             <div className="flex gap-[40px] flex-col">
