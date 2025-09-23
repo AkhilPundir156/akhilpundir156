@@ -4,7 +4,7 @@ const projectData = [
         name: "Big Brain",
         type: "Personal",
         year: "2025",
-        link: "https://github.com/AkhilPundir156/Big-Brain-Backend",
+        link: "https://bigbrain.akhilpundir.info",
         githubLink: "https://github.com/AkhilPundir156/Big-Brain-Frontend",
         summary: "AI-Powered Knowledge Base",
         description:
